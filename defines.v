@@ -12,7 +12,7 @@
 `define InstValid           1'b0
 `define InstInvalid         1'b1
 `define True_v              1'b1
-`define Falst_v             1'b0
+`define False_v             1'b0
 `define ChipEnable          1'b1
 `define ChipDisable         1'b0
 
