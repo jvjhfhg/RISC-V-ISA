@@ -1,5 +1,3 @@
-`include "defines.v"
-
 module id(
     input wire                  rst,
     input wire[`INST_ADDR_BUS]  pc_i,

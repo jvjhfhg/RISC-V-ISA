@@ -7,15 +7,15 @@
 `define TRUE                1'b1
 `define FALSE               1'b0
 
-`define ZERO_32             32'h0
+`define ZERO_32             32'b0
 
 `define ALU_OP_BUS          7:0
 `define ALU_SEL_BUS         2:0
 
 /* Instructions Related */
 
-`define EXE_NOP             6'b000000
-`define EXE_ORI             6'b001101
+`define EXE_NOP             7'b0000000
+`define EXE_LUI             7'b0110111
 
 // AluOp
 
