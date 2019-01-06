@@ -1,6 +1,6 @@
 module if_id(
-    input wire clk,
-    input wire rst,
+    input wire                  clk,
+    input wire                  rst,
     
     input wire[`INST_ADDR_BUS]  if_pc,
     input wire[`INST_BUS]       if_inst,

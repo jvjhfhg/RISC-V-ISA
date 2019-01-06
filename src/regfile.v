@@ -1,6 +1,6 @@
 module regfile(
-    input wire clk,
-    input wire rst,
+    input wire                  clk,
+    input wire                  rst,
     
     input wire                  we,
     input wire[`REG_ADDR_BUS]   waddr,
